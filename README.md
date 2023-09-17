@@ -1,4 +1,4 @@
-# Laravel 8 公司儀表板
+# Laravel 10 公司儀表板
 
 公司儀表板就是儲存公司同事資訊及聯絡窗口的行為，以便於往後的檢索，公司聯絡窗口也就是聯絡人，指的是公司或部門中負責和其他公司或部門聯繫相關事務的人員。
 
@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
@@ -31,8 +35,8 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/gG4hrZK.png)
+![](https://i.imgur.com/KIolXOK.png)
 > 新增公司資料
 
-![](https://i.imgur.com/Vlb6YKX.png)
+![](https://i.imgur.com/qpgKZJD.png)
 > 列出公司資料清單
