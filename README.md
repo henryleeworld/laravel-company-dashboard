@@ -1,4 +1,4 @@
-# Laravel 10 公司儀表板
+# Laravel 11 公司儀表板
 
 公司儀表板就是儲存公司同事資訊及聯絡窗口的行為，以便於往後的檢索，公司聯絡窗口也就是聯絡人，指的是公司或部門中負責和其他公司或部門聯繫相關事務的人員。
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/KIolXOK.png)
+![](https://i.imgur.com/JumjtDg.png)
 > 新增公司資料
 
-![](https://i.imgur.com/qpgKZJD.png)
+![](https://i.imgur.com/tPf1fRa.png)
 > 列出公司資料清單
