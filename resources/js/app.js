@@ -1,9 +1,9 @@
 import './bootstrap';
 
-import Alpine from 'alpinejs';
-import CompaniesIndex from '@/components/companies/CompaniesIndex.vue'
 import { createApp } from "vue";
 import { i18nVue } from 'laravel-vue-i18n';
+import Alpine from 'alpinejs';
+import CompaniesIndex from '@/components/companies/CompaniesIndex.vue'
 import router from '@/router/index.js'
 
 window.Alpine = Alpine;
